@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+}
+
+.card-cnt{
+    margin: 20px;
+}
+
+.card{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+    color: 2b2839;
+    background-color: #eaf5ff;
+    border-bottom: 8px solid #d8cefe;
+}
+
+.card:hover{
+    color: snow;
+    background-color: #fffcef;
+    border-bottom: 10px solid rgb(196, 32, 32);
+    text-shadow: 1px -20px 0px black;
+
+}
+
+.img-tag{
+    width: 100px;
+    border-radius: 10%;
+}
+
+.intro-tag{
+    width: 200px;
+}
+
